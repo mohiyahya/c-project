@@ -1,11 +1,11 @@
-#include "mainwindow.h"
-
-#include <QApplication>
+#include <QCoreApplication>
+#include "t-mohadeseh.h"
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    QCoreApplication a(argc, argv);
+    Mohadeseh mohi;
+    mohi.
+
     return a.exec();
 }
